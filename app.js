@@ -64,7 +64,7 @@ app.post("/", function(req, res) {
 
 
 
-let port = process.env.PORT
+let port = process.env.PORT || 3000
 
 app.listen(port, function() {
     console.log("server running at port " + "...");
